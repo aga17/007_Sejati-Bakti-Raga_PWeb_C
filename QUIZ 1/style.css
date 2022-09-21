@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #242627;
+}
+
+.card{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 69%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background-color: white;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.atasan{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    /* background-color: aqua; */
+}
+
+.logo-solok{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 120px;            
+    width: 120px;
+    margin: 2em;
+}
+
+.logo-solok img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo-rs{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 150px;            
+    width: 150px;
+    margin: 2em;
+}
+
+.logo-rs img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.kepala{
+    padding-top: 2em;
+    align-items: center;
+    text-align: center;
+}
+
+.kepala p{
+    font-style: italic;
+}
+
+.garis{
+    
+    display: flex;
+    height: 5px;
+    background-color: black;
+    width: 97%;
+    margin: auto;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+}
+
+.isi h1{
+    text-align: center;
+    margin: 0.5em;
+}
+
+.form-atas{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-bottom: dashed black;
+    margin: auto;
+    width: 69%;
+}
+
+.form-bawah{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-bottom: dashed black;
+    margin: auto;
+    width: 69%;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-content: space-between;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.input-wrapper label{
+    margin-right: 10px;
+    width: 200px;
+}
+.input-wrapper input{
+    border: none;
+    display: block;
+    margin-left: 10px;
+    border-bottom: 2px dotted black;
+}
+.input-wrapper input:focus{
+    outline: none;
+}
+.list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    margin-right: 30px;
+}
+.left p{
+    font-size: 12px;
+}
+.right{
+    width: 70%;
+}
+.right ol li{
+    font-size: 12px;
+}
+.ket p{
+    font-size: 12px;
+}
+.tanggal{
+    margin-top: 50px;
+    margin-bottom: -90px;
+    width: 100%;
+    text-align: right;
+}
+.signature{
+    margin: 0 auto;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.sig-left{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sig-right{
+    overflow: hidden;
+    margin-right: -30px;
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
